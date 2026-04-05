@@ -1,0 +1,50 @@
+@import "tailwindcss";
+
+:root {
+  --page: #f7f9fc;
+  --nav: rgba(255, 255, 255, 0.92);
+  --card: rgba(255, 255, 255, 0.94);
+  --card-strong: #0f172a;
+  --chip: rgba(241, 245, 249, 0.96);
+  --text-strong: #0f172a;
+  --text-muted: #475569;
+  --accent: #1d4ed8;
+  --line: rgba(15, 23, 42, 0.08);
+  --font-sans: "Avenir Next", "Segoe UI", "Helvetica Neue", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  background:
+    radial-gradient(circle at top left, rgba(29, 78, 216, 0.08), transparent 24%),
+    linear-gradient(180deg, #ffffff 0%, #f4f7fb 100%);
+  color: var(--text-strong);
+  font-family: var(--font-sans), sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  margin: 0;
+  font-family: var(--font-sans), sans-serif;
+  letter-spacing: -0.03em;
+}
+
+p {
+  margin: 0;
+}
